@@ -1,0 +1,7 @@
+stsyle{
+    display: flex;
+    height: 70px;
+    text-align: center;
+    background-color: greenyellow;
+    justify-content: space-between;
+}
