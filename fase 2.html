@@ -9,6 +9,11 @@
 </head>
 <style>
     * {
+        padding: 0;
+        margin: 0;
+        text-decoration: none;
+        list-style: none;
+        box-sizing: border-box;
         text-align: center;
         background-color: blue;
         color: white;
@@ -20,12 +25,27 @@
     }
 
     nav {
-        background: green;
-        font-size: 20px;
+        background: palegreen;
+        height: 80px;
+        width: 100%;
+    }
+
+    nav ul{
+        float: center;
+        margin-right: 20px;
+    }
+
+    nav ul li{
+        display: inline-block;
         line-height: 80px;
-        text-align: center;
         margin: 0 5px;
+    }
+
+    nav ul li a{
+        color: antiquewhite;
+        font-size: 18px;
         padding: 7px 13px;
+        border-radius: 3px;
         text-transform: uppercase;
     }
 
@@ -38,7 +58,7 @@
     h1 {
         background-color: brown;
         color: white;
-        font-size: 45;
+        font-size: 45px;
     }
 
     section p {
@@ -47,38 +67,54 @@
     }
 
     h2 {
-        background-color: yellow;
+        background-color: sienna;
         color: black;
-        font-size: 45;
+        font-size: 45px;
     }
 
     h3 {
         background-color: brown;
         color: black;
-        font-size: 45;
+        font-size: 45px;
+    }
+
+    h4 {
+        background-color: darkgreen;
+        color: black;
+        font-size: 45px;
+    }
+
+    section h4 p{
+        font-size: 16px;
     }
 
     footer p {
         text-align: left;
-        font-size: 14px;
+        font-size: 18px;
     }
      
 </style>
 
 <body>
     <header>
-        <h1>IntroducciÒn al HTML</h1>
+        <h1>Introducción al HTML</h1>
     </header>
+   
     <nav>
-        <a href="#seccion1" class="nav-link">Inicio</a>
-        <a href="#seccion2" class="nav-link">Tema Seleccionado</a>
-        <a href="#seccion3" class="nav-link">Mockup</a>
-        <a href="https://github.com/RicardoQ7/DSW-WilliamQuiceno-1601.git" class="nav-link">Acerca de</a>
+        <ul>
+        <li><a href="#seccion1"> Inicio </a></li>
+        <li><a href="#seccion2"> Tema Seleccionado </a></li>
+        <li><a href="#seccion3"> Mockup </a></li>
+        <li><a href="#seccion4"> Acerca de </a></li>
+        </ul>
     </nav>
+
     <hr>
     <a name="seccion1"></a>
     <section>
         <h1>CSS básico</h1>
+        <img src="img/inicio_css.jpg" alt="Iniciando a html">
+
         <p>CSS (Hojas de Estilo en Cascada) es el código que usas para dar estilo a tu página web.
             CSS Básico te lleva a través de lo que tú necesitas para empezar.
             Contestará a preguntas del tipo: ¿Cómo hago mi texto rojo o negro?
@@ -90,6 +126,9 @@
     <a name="seccion2"></a>
     <section>
         <h2>Tema: Box Model</h2>
+        <br>
+        <img src="img/caja_modelo.webp" alt="Definición del Box Model">
+        <br><br><br>
         <p>(Modelo de caja) Se llama así porque, en los navegadores, todo se construye a partir de cajas.
 
             Entonces, lo primero que debemos de entender, es que cada elemento que definimos en un documento HTML
@@ -145,15 +184,30 @@
             del contenido.
         </p>
     </section>
-    <hr>
+    <br><hr>
     <a name="seccion3"></a>
     <section>
         <h3> Mockup</h3>
-        <p>Gráficas</p>
+        <p>Gráficas</p><br>
     </section>
     <hr>
+
+    <a name="seccion4"></a>
+    <section>
+        <h4> Acerca de  </h4>
+    <p> Proyecto de sitio web año 2023 - Periodo 1601 </p><br>
+    <p> Nombre: William Ricardo Quiceno </p><br>
+    <p> Programa: Ingenieria de Sistemas </p><br>
+    <p> Mis datos de contacto son: </p><br>
+    <p> Skype: Ricardo-77 </p><br>
+    <p> telefono: 3143316847 </p><br>
+    <p> email: richard1921rq@gmail.com  </p><br>
+    </section>
+
+    <hr>
+    <br><br>
     <footer>
-        <p>Copyright</p>
+        <p>Copyright</p><br>
         <p>Ultima fecha de actualización 14 marzo de 2023</p>
     </footer>
 </body>
