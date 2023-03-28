@@ -1,4 +1,4 @@
-.contenedor{
+.contenedor {
     display: grid;
     grid-template-areas: 
     'C A A A'
