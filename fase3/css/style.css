@@ -24,6 +24,7 @@ nav {
     background-color: #E21818;
     text-transform: uppercase;
     font-size: 18px;
+    display: inline-block;
 }
 
 aside {
