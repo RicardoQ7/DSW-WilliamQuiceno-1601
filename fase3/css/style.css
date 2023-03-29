@@ -2,7 +2,7 @@
     display: grid;
     grid-template-areas: 
     'A A A A'
-    'C B B B'
+    'B B B B'
     'C D D D'
     'E E E E';
 }
