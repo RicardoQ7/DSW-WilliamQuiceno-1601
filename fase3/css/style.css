@@ -24,7 +24,6 @@ nav {
     background-color: #E21818;
     text-transform: uppercase;
     font-size: 18px;
-    display: inline-block;
 }
 
 aside {
@@ -32,6 +31,9 @@ aside {
     background-color: #FFDD83;
     text-transform: uppercase;
     font-size: 18px;
+    display: inline-block;
+    line-height: 30px;
+    margin: 0 3px;
 }
 
 main {
@@ -42,6 +44,7 @@ main {
 
 footer {
     grid-area: E;
+    padding: 30px;
     background-color: #FFB4B4;
     font-size: 16px;
 }
