@@ -1,15 +1,25 @@
 .contenedor {
     display: grid;
-    grid-template-areas: 
-    'A A A A'
-    'B B B B'
-    'C D D D'
-    'E E E E';
+    grid-template-areas:
+        'A A A A'
+        'B B B B'
+        'C D D D'
+        'E E E E';
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    text-align: center;
 }
 
 header {
     grid-area: A;
     background-color: #98DFD6;
+
 }
 
 nav {
