@@ -24,6 +24,9 @@ nav {
     background-color: #E21818;
     text-transform: uppercase;
     font-size: 18px;
+    display: inline-block;
+    line-height: 30px;
+    margin: 0 3px;
 }
 
 aside {
@@ -38,6 +41,7 @@ aside {
 
 main {
     grid-area: D;
+    padding: 30px;
     background-color: #98DFD6;
     font-size: 16px;
 }
