@@ -24,7 +24,7 @@ nav {
     grid-area: B;
     background-color: #E21818;
     text-transform: uppercase;
-    background: red;
+    background: mediumspringgreen;
     color: black;
     transition: .5s;
 }
@@ -32,6 +32,10 @@ nav {
 aside {
     grid-area: C;
     background-color: #FFDD83;
+    text-transform: uppercase;
+    background: mediumspringgreen;
+    color: black;
+    transition: .5s;
 }
 
 main {
