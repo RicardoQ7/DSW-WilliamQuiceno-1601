@@ -20,6 +20,7 @@ header {
 }
 
 nav {
+    display: inline-block;
     grid-area: B;
     background-color: #E21818;
     text-transform: uppercase;
