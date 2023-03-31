@@ -59,12 +59,12 @@ main {
 }
 
 .imagen {
-    background-image: url(/img/inicio_css.jpg);
+    background-image: url(/fase3/img/box.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     /*background-attachment: fixed;*/
-    padding: 50px;
+    padding: 25px;
     height: 400px;
 }
 
