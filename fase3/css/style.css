@@ -59,7 +59,7 @@ main {
 }
 
 .imagen {
-    background-image: url(/fase3/img/box.png);
+    background-image: url("");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
