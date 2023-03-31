@@ -74,3 +74,6 @@ footer {
     background-color: #FFB4B4;
     font-size: 14px;
 }
+body {
+    background-image: url("imgenes/box.png");
+}
