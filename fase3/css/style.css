@@ -59,11 +59,11 @@ main {
 }
 
 .imagen {
-    background-image: url("imgenes/box.png");
-    background-position: center center;
+    background-image: url("imagenes/caja.jpg");
+    background-position: center;
     background-repeat: no-repeat;
-    /*background-size: cover;*/
-    width: 500px;
+    background-size: cover;
+    /*background-attachment: fixed;*/
     padding: 25px;
     height: 400px;
 }
@@ -73,7 +73,4 @@ footer {
     padding: 30px;
     background-color: #FFB4B4;
     font-size: 14px;
-}
-body {
-    background-image: url("imgenes/box.png");
 }
