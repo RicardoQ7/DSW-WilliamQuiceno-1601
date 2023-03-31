@@ -58,6 +58,14 @@ main {
     font-size: 16px;
 }
 
+.imagen {
+    background-image: url(img/caja_modelo.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 footer {
     grid-area: E;
     padding: 30px;
