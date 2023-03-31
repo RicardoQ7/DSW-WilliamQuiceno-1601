@@ -47,7 +47,7 @@ aside {
     text-transform: uppercase;
     font-size: 18px;
     display: inline-block;
-    line-height: 30px;
+    line-height: 80px;
     margin: 0 3px;
 }
 
@@ -62,7 +62,8 @@ main {
     background-image: url("imgenes/box.png");
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: cover;
+    /*background-size: cover;*/
+    width: 500px;
     padding: 25px;
     height: 400px;
 }
