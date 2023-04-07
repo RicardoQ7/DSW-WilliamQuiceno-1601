@@ -79,20 +79,17 @@ main {
     font-size: 16px;
 }
 
-/*.imagen {
-    background-image: url("imagenes/caja.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-   /*background-attachment: fixed;
-    padding: 25px;
-    height: 400px;
-}*/
-
 footer {
     grid-area: E;
     padding: 30px;
     background-color: #FFB4B4;
     font-size: 14px;
     text-align: center;
+}
+
+.dropdown-menu li a {
+    background-color: black;
+    color: white;
+    padding: 15px 40px;
+    margin: 0 3px;
 }
