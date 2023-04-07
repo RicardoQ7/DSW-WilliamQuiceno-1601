@@ -40,6 +40,8 @@ nav ul li {
 nav ul li a {
     background-color: black;
     color: white;
+    padding: 15px 40px;
+    margin: 0 3px;
 }
 
 li:hover {
@@ -52,18 +54,22 @@ aside {
     grid-area: C;
     background-color: #FFDD83;
     text-transform: uppercase;
+    text-align: center;
     font-size: 18px;
     display: block;
-    list-style-type: none;
     line-height: 80px;
     padding: 15px 40px;
     margin: 0 3px;
 }
 
+aside ul {
+    list-style: none;
+}
+
 aside ul li a {
-    background-color: black;
+    background-color: blue;
     color: white;
-    list-style-type: none;
+    padding: 15px 20px;
 }
 
 main {
@@ -88,4 +94,5 @@ footer {
     padding: 30px;
     background-color: #FFB4B4;
     font-size: 14px;
+    text-align: center;
 }
