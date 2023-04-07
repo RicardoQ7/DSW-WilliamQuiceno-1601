@@ -5,20 +5,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Audio </title>
+    <title> Inicio </title>
 
     <!-- creo para la carpeta estilos de la pagina -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
+<body class="contenedor">
     <!-- estilo para la sección del encabezado -->
     <header>
-        <h1> Explicación del tema BOX MODEL </h1>
+        <h1> Diseño del proyecto fase 3</h1>
     </header>
 
     <!-- estilo para la sección del menu -->
-    <hr>
     <nav>
         <ul>
             <li><a href="index.html"> Inicio </a></li>
@@ -26,14 +25,34 @@
             <li><a href="equipo.html"> Nosotros </a></li>
         </ul>
     </nav>
-    <!-- estilo para la sección de la imagen de fondo y el audio-->
 
-    <div class="imagen">
-        <audio controls muted>
-            <source src="music.mp3" type="audio/mpeg">
-        </audio>
-    </div>
+    <!-- estilo para la sección del menú lateral -->
+    <aside>
+        <ul>
+            <li><a href="index.html"> Inicio </a></li>
+            <li><a href="tema.html"> Tema </a></li>
+            <li><a href="equipo.html"> Nosotros </a></li>
+        </ul>
+    </aside>
+    
+    <!-- estilo para la sección de un artículo -->
+    <main class="imagen">
+        <section>
+            <h2> Audio </h2>
+            <br>
+            <p> Este es el audio del tema </p>
+            <br>
 
+            <audio controls muted>
+                <source src="audio/music.mp3" type="audio/ogg">
+            </audio>
+            <br>
+
+            <img src="imgenes/caja.jpg" alt="Imagen alusiva al tema estudiado" align="right" width="800" height="500">
+
+        </section>
+    </main>
+    
     <!-- estilo para la sección del pie de página -->
     <footer>
         <p>Copyright Autor William Ricardo Quiceno</p><br>
