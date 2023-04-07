@@ -38,16 +38,10 @@ nav ul li {
 }
 
 nav ul li a {
-    background-color: black;
-    color: white;
+    background-color: peru;
+    color: greenyellow;
     padding: 15px 40px;
     margin: 0 3px;
-}
-
-li:hover {
-    background: greenyellow;
-    color: white;
-    transition: .5s;
 }
 
 aside {
@@ -85,11 +79,4 @@ footer {
     background-color: #FFB4B4;
     font-size: 14px;
     text-align: center;
-}
-
-.dropdown-menu li a {
-    background-color: black;
-    color: white;
-    padding: 15px 40px;
-    margin: 0 3px;
 }
