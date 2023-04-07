@@ -10,7 +10,7 @@
 * {
     padding: 0;
     margin: 0;
-    text-decoration: none;   
+    text-decoration: none;
 }
 
 header {
@@ -26,16 +26,17 @@ nav {
     font-size: 18px;
 }
 
-nav ul{
+nav ul {
     display: flex;
     justify-content: center;
     list-style-type: none;
 }
 
-nav ul li{
+nav ul li {
     padding: 15px 40px;
     margin: 3px;
 }
+
 nav ul li a {
     background-color: black;
     color: white;
@@ -52,14 +53,17 @@ aside {
     background-color: #FFDD83;
     text-transform: uppercase;
     font-size: 18px;
-    display: inline-block;
+    display: block;
+    list-style-type: none;
     line-height: 80px;
+    padding: 15px 40px;
     margin: 0 3px;
 }
 
 aside ul li a {
     background-color: black;
     color: white;
+    list-style-type: none;
 }
 
 main {
