@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Tema </title>
+
+    <!-- creo para la carpeta estilos de la pagina -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="contenedor">
+    <!-- estilo para la sección del encabezado -->
+    <header>
+        <h1>TEMA: MEDIA QUERY </h1>
+    </header>
+
+    <!-- estilo para la sección del menu -->
+    <hr>
+    <nav>
+        <ul>
+            <li><a href="indexGrupal.html"> Inicio </a></li>
+            <li><a href="audios.html"> Audio </a></li>
+            <li><a href="grupo.html"> Nosotros </a></li>
+        </ul>
+    </nav>
+
+    <!-- estilo para la sección del menú lateral -->
+    <aside>
+        <ul>
+            <li><a href="indexGrupal.html"> Inicio </a></li>
+            <li><a href="audios.html"> Audio </a></li>
+            <li><a href="grupo.html"> Nosotros </a></li>
+        </ul>
+    </aside>
+
+    <!-- estilo para la sección de un artículo -->
+
+    <hr>
+    <main>
+        <section>
+            <article>
+                <h1> ¿Que es una media query? </h1>
+                <br>
+
+                <p>
+                    Las Media Query o consultas de medioss son útiles cuando desea modificar una página web o una
+                    aplicación según el tipo de dispositivo
+                    (como una impresora o una pantalla) o capacidades y parámetros específicos (como la resolución de la
+                    pantalla o el ancho
+                    de una ventana del navegador).
+                </p>
+
+                </p>
+                Usado para:
+                </p>
+                </p>
+                - Aplicar estilos condicionales con las reglas-at @media e @import de CSS. <br>
+
+                - Indicar medios específicos en los elementos
+                <link>,
+                <source> y otros elementos HTML.<br>
+
+                - Testear y monitorizar los estados de los medios usando los métodos de javascript Window.matchMedia() y
+                MediaQueryList.addListener().<br>
+                </p>
+
+                <h3>
+                    Sintanxis
+                </h3>
+                </p>
+                Las media queries consisten de un tipo de medio opcional y una o más expresiones de características de
+                medios.
+                Varias consultas se pueden combinar utilizando operadores lógicos. No distinguen entre mayúsculas y
+                minúsculas.
+                El resultado de la consulta es "verdadero" cuando el tipo de medio (si se especifica) coincide con el
+                dispositivo
+                en el que se está mostrando el documento y todas las expresiones en el media query son "verdaderas". En
+                este caso,
+                se aplica los estilos correspondientes, siguiendo las reglas usuales de cascada.
+
+                Las consultas sobre tipos de medios desconocidos son siempre falsas.<br>
+                </p>
+
+                <h3>
+                    Media Types
+                </h3>
+                <p>
+                    Los Media Types (tipos de medios) describen la categoría general de un dispositivo.
+                    Excepto cuando se utilizan los operadores lógicos not o only, el tipo de medio es opcional y será
+                    interpretada como all.
+
+                    all<br>
+                    apto para todos los dispositivos.<br>
+                    <br>
+                    print<br>
+                    <br>
+                    Destinado a material impreso y visualización de documentos en una pantalla en el modo de vista
+                    previa de impresión.<br>
+                    <br>
+                    screen<br>
+                    <br>
+                    Destinado principalmente a las pantallas<br>
+                    <br>
+                    speech<br>
+                    <br>
+                    Destinado a sintetizadores de voz<br>
+
+                </p>
+
+                <h4>
+                    Operadores Lógicos
+                </h4>
+                <p>
+                    Se pueden redactar queries utilizando operadores lógicos, incluyendo not, and, y only.<br>
+                    <br>
+                    El operador and es usado para colocar juntas múltiples funciones multimedia. Un query básico con el
+                    tipo de medio especificado<br>
+                    <br>
+                    Además se puede combinar múltiples queries en una lista separada por comas múltiples; si cualquiera
+                    de las queries
+                    en la lista es verdadera, la hoja de estilo asociada es aplicada. Esto es equivalente a una
+                    operación lógica "or".
+                </p>
+        </section>
+    </main>
+    <hr>
+
+    <!-- estilo para la sección del pie de página -->
+    <footer>
+        <p>Copyright Autor William Ricardo Quiceno</p><br>
+        <p>Ultima fecha de actualización: abril de 2023</p><br>
+    </footer>
+</body>
+
+</html>
