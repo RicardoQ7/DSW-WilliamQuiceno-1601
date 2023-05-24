@@ -2,82 +2,125 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title> Cuestionario2 </title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Cuestionario2 </title>
 </head>
 
+<!--Se crea el estilo para la página del cuestionario-->
+<style>
+    * {
+        text-decoration: none;
+        list-style: none;
+        background-color: #98DFD6;
+    }
+
+    nav ul li {
+        display: inline-block;
+        line-height: 40px;
+        margin: 0 2px;
+    }
+
+    nav ul li a {
+        color: blue;
+        font-size: 18px;
+        padding: 7px 13px;
+        border-radius: 3px;
+        text-transform: uppercase;
+    }
+
+    a:hover {
+        background: red;
+        color: black;
+        transition: .5s;
+    }
+
+    input {
+        color: blue;
+        font-size: 16px;
+        padding: 7px 13px;
+        border-radius: 3px;
+        text-transform: uppercase;
+    }
+
+    input:hover {
+        background: greenyellow;
+        color: black;
+        transition: .5s;
+    }
+</style>
+
 <nav>
-  <ul class="menu-horizontal">
-    <li><a href="index.html"> INICIO </a></li>
+    <ul class="menu-horizontal">
+        <li><a href="index.html"> INICIO </a></li>
 
 </nav>
 
 <body>
-  <h1 id="resul">RESPONDE A LAS SIGUIENTES PREGUNTAS</h1>
-  <div>
-    <form name="evalucion_selectores">
-      <h3>1. Que es un selector CSS </h3>
+    <h1 id="resul">RESPONDE A LAS SIGUIENTES PREGUNTAS</h1>
+    <div>
+        <form name="evalucion_selectores">
+            <h3>1. Que es un selector CSS </h3>
 
-      <input type="radio" name="r1" value="a"> a. Los selectores de CSS son básicamente unos códigos que nos permiten
-      indicar el elemento o elementos sobre los que queremos aplicar determinados estilos. <br>
-      <input type="radio" name="r1" value="b"> b. Consejo Colombiano de Seguridad <br>
-      <input type="radio" name="r1" value="c"> c. se refiere a la relación entre un rasgo observado y las dos versiones
-      heredadas de un gen relacionado con ese rasgo <br>
-      <input type="radio" name="r1" value="d"> d. todas las anteriores<br>
+            <input type="radio" name="r1" value="a"> a. Los selectores de CSS son básicamente unos códigos que nos
+            permiten
+            indicar el elemento o elementos sobre los que queremos aplicar determinados estilos. <br>
+            <input type="radio" name="r1" value="b"> b. Consejo Colombiano de Seguridad <br>
+            <input type="radio" name="r1" value="c"> c. se refiere a la relación entre un rasgo observado y las dos
+            versiones
+            heredadas de un gen relacionado con ese rasgo <br>
+            <input type="radio" name="r1" value="d"> d. todas las anteriores<br>
 
-      <h3>2. Que es un Selector universal </h3>
+            <h3>2. Que es un Selector universal </h3>
 
-      <input type="radio" name="r2" value="a"> a. permiten seleccionar todos los elementos que tienen un mismo nombre de
-      clase<br>
-      <input type="radio" name="r2" value="b"> b. el valor de la propiedad en CSS. <br>
-      <input type="radio" name="r2" value="c"> c. Un selector de tipo permite seleccionar todos los elementos en HTML
-      que tienen un nombre de nodo común. <br>
-      <input type="radio" name="r2" value="d"> d. El asterisco (*) es el selector universal en CSS. De forma automática,
-      el asterisco selecciona todos los elementos en un documento. <br>
+            <input type="radio" name="r2" value="a"> a. permiten seleccionar todos los elementos que tienen un mismo
+            nombre de
+            clase<br>
+            <input type="radio" name="r2" value="b"> b. el valor de la propiedad en CSS. <br>
+            <input type="radio" name="r2" value="c"> c. Un selector de tipo permite seleccionar todos los elementos en
+            HTML
+            que tienen un nombre de nodo común. <br>
+            <input type="radio" name="r2" value="d"> d. El asterisco (*) es el selector universal en CSS. De forma
+            automática,
+            el asterisco selecciona todos los elementos en un documento. <br>
 
-      <h3>3. cual de estos es un selector de ID </h3>
+            <h3>3. cual de estos es un selector de ID </h3>
 
-      <input type="radio" name="r3" value="a"> a. La sintaxis del selector de ID funciona del siguiente modo: #nombre de
-      ID (propiedades de estilo) <br>
-      <input type="radio" name="r3" value="b"> b. valores que identifican otro valor <br>
-      <input type="radio" name="r3" value="c"> c. propiedad de un termino <br>
-      <input type="radio" name="r3" value="d"> d. permite selecionar los valores de css<br>
+            <input type="radio" name="r3" value="a"> a. La sintaxis del selector de ID funciona del siguiente modo:
+            #nombre de
+            ID (propiedades de estilo) <br>
+            <input type="radio" name="r3" value="b"> b. valores que identifican otro valor <br>
+            <input type="radio" name="r3" value="c"> c. propiedad de un termino <br>
+            <input type="radio" name="r3" value="d"> d. permite selecionar los valores de css<br>
 
-      <h3>4. Cuáles son los selectores basicos de CSS? </h3>
+            <h3>4. Cuáles son los selectores basicos de CSS? </h3>
 
-      <input type="radio" name="r4" value="a"> a. google,youtube,whatsapp<br>
-      <input type="radio" name="r4" value="b"> b. el selector de ID, el selector de clase y el selector global. <br>
-      <input type="radio" name="r4" value="c"> c. tablas o imágenes. Texto. Las propiedades de texto en CSS <br>
-      <input type="radio" name="r4" value="d"> d. formato a todo el texto que se integre dentro de la web <br>
+            <input type="radio" name="r4" value="a"> a. google,youtube,whatsapp<br>
+            <input type="radio" name="r4" value="b"> b. el selector de ID, el selector de clase y el selector global.
+            <br>
+            <input type="radio" name="r4" value="c"> c. tablas o imágenes. Texto. Las propiedades de texto en CSS <br>
+            <input type="radio" name="r4" value="d"> d. formato a todo el texto que se integre dentro de la web <br>
 
-      <h3>5. Ejemplo de un Selector de clase </h3>
+            <h3>5. Ejemplo de un Selector de clase </h3>
 
-      <input type="radio" name="r5" value="a"> a. selector de ID que hace referencia a todos los elementos con el nombre
-      "hubspot": <br>
-      <input type="radio" name="r5" value="b"> b. selector de atributo que modificará todos los elementos que contienen
-      «hubspot» en su URL:<br>
-      <input type="radio" name="r5" value="c"> c. Este es el código en CSS con un selector que define todos los
-      elementos pertenecientes a la clase "pastoral": <br>
-      <input type="radio" name="r5" value="d"> d. para aquellos a los que se ha accedido y para aquellos sobre los que
-      se está deslizando el usuario: <br>
+            <input type="radio" name="r5" value="a"> a. selector de ID que hace referencia a todos los elementos con el
+            nombre
+            "hubspot": <br>
+            <input type="radio" name="r5" value="b"> b. selector de atributo que modificará todos los elementos que
+            contienen
+            «hubspot» en su URL:<br>
+            <input type="radio" name="r5" value="c"> c. Este es el código en CSS con un selector que define todos los
+            elementos pertenecientes a la clase "pastoral": <br>
+            <input type="radio" name="r5" value="d"> d. para aquellos a los que se ha accedido y para aquellos sobre los
+            que se está deslizando el usuario: <br><br><br>
 
+            <input type="button" value=" Enviar" onclick="procesarrespuestas()">
 
+        </form>
 
-      <input type="button" value=" Enviar" onclick="procesarrespuestas()">
-
-    </form>
-    <style>
-      * {
-
-        background-color: rgb(125, 107, 177);
-        color: black
-      }
-    </style>
-
-  </div>
-  <script src="js/script.js"></script>
+    </div>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
