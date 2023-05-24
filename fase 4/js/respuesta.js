@@ -15,7 +15,7 @@ function procesarRespuestas(){   // mi función
                 puntos++;
         }
     }
-    let resul = document.getElementById('resul')
-    resul.innerHTML='Obtuviste '+puntos+' puntos de ' + total + ' posibles ';
+    let resultado = document.getElementById('resultado')
+    resultado.innerHTML='Obtuviste '+puntos+' puntos de ' + total + ' posibles ';
     return false;
 }
